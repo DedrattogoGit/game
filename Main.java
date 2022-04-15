@@ -14,12 +14,12 @@ public class Main
 {
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Calculator.\nThis is where you use a machine to calculate.");
-		  Scanner hacker = new Scanner(System.in);
+		  Scanner dude = new Scanner(System.in);
 		System.out.println("Choose a number.");
-		int a = hacker.nextInt();
-		  Scanner hacke = new Scanner(System.in);
+		int a = dude.nextInt();
+		  Scanner man = new Scanner(System.in);
 		System.out.println("Choose another number.");
-		int b = hacke.nextInt();
+		int b = man.nextInt();
 		Scanner op = new Scanner(System.in);
 		System.out.println("Choose an operation. 1 for X, 2 for /, 3 for +, 4 for -, and 5 for %.");
 		int c = op.nextInt();
